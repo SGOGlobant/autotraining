@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.automation.training.StarbucksTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.automation.training.StarbucksTest">
+        <methods>
+          <include name="testGiftCard"/>
+          <include name="testMenuCoffe"/>
+          <include name="testTextNavsHome"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.automation.training.StarbucksTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.automation.training.StarbucksTest] -->

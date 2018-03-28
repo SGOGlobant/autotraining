@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Strarbucks test suite]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="answer3" value="1"/>
+  <parameter name="answer2" value="1"/>
+  <parameter name="answer4" value="1"/>
+  <parameter name="answer1" value="1"/>
+  <test name="My Starbucks test(failed)">
+    <groups>
+      <run>
+        <include name="all"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.automation.training.StarbucksTest">
+        <methods>
+          <include name="testGiftCard"/>
+          <include name="testMenuCoffe"/>
+          <include name="testTextNavsHome"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.automation.training.StarbucksTest -->
+    </classes>
+  </test> <!-- My Starbucks test(failed) -->
+</suite> <!-- Failed suite [My Strarbucks test suite] -->

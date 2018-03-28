@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Strarbucks test suite" duration-ms="35214" started-at="2018-03-28T23:53:28Z" finished-at="2018-03-28T23:54:03Z">
+    <groups>
+      <group name="navigatorTest">
+        <method signature="StarbucksTest.testTextNavsHome()[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="testTextNavsHome" class="com.automation.training.StarbucksTest"/>
+      </group> <!-- navigatorTest -->
+      <group name="recomendationTest">
+        <method signature="StarbucksTest.testMenuCoffe(int, int, int, int)[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="testMenuCoffe" class="com.automation.training.StarbucksTest"/>
+      </group> <!-- recomendationTest -->
+      <group name="giftCardTest">
+        <method signature="StarbucksTest.testGiftCard(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="testGiftCard" class="com.automation.training.StarbucksTest"/>
+      </group> <!-- giftCardTest -->
+    </groups>
+    <test name="My Starbucks test" duration-ms="35214" started-at="2018-03-28T23:53:28Z" finished-at="2018-03-28T23:54:03Z">
+      <class name="com.automation.training.StarbucksTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="beforeSuite" is-config="true" duration-ms="4854" started-at="2018-03-28T17:53:23Z" finished-at="2018-03-28T17:53:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testGiftCard(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="testGiftCard" duration-ms="11886" started-at="2018-03-28T17:53:28Z" data-provider="getDataCard" finished-at="2018-03-28T17:53:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sergio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is a message for the GIFT CARD.
+Regards.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sergio Garcia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sergio@correo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[friend@mail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4/5/2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGiftCard -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="791" started-at="2018-03-28T17:53:40Z" finished-at="2018-03-28T17:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGiftCard(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="testGiftCard" duration-ms="8589" started-at="2018-03-28T17:53:41Z" data-provider="getDataCard" finished-at="2018-03-28T17:53:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sergio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is a message for the GIFT CARD.
+Regards.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Garcia Sergio]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sergio@correo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[friend@mail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4/5/2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGiftCard -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="751" started-at="2018-03-28T17:53:49Z" finished-at="2018-03-28T17:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMenuCoffe(int, int, int, int)[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="testMenuCoffe" duration-ms="7545" started-at="2018-03-28T17:53:50Z" data-provider="getAnswers" finished-at="2018-03-28T17:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuCoffe -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="790" started-at="2018-03-28T17:53:57Z" finished-at="2018-03-28T17:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMenuCoffe(int, int, int, int)[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="testMenuCoffe" duration-ms="2935" started-at="2018-03-28T17:53:58Z" data-provider="getAnswers" finished-at="2018-03-28T17:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuCoffe -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="998" started-at="2018-03-28T17:54:01Z" finished-at="2018-03-28T17:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testTextNavsHome()[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="testTextNavsHome" duration-ms="165" started-at="2018-03-28T17:54:02Z" finished-at="2018-03-28T17:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextNavsHome -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.automation.training.StarbucksTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="715" started-at="2018-03-28T17:54:02Z" finished-at="2018-03-28T17:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- com.automation.training.StarbucksTest -->
+    </test> <!-- My Starbucks test -->
+  </suite> <!-- My Strarbucks test suite -->
+</testng-results>
