@@ -12,7 +12,7 @@ import com.automation.pages.ShoppingCardPage;
 import com.automation.pages.StarbucksHomePage;
 
 public class StarbucksTest extends BaseTests {
-	private final String[] texts = { "COFFEE", "TEA", "MENU", "COFFEEHOUSE", "SOCIAL IMPACT", "STARBUCKS REWARDS",
+	private final String[] texts = { "COFFEE", "TEA", "MENU", "COFFEHOUSE", "SOCIAL IMPACT", "STARBUCKS REWARDS",
 			"BLOG", "GIFT CARDS" };
 
 	@Test(groups = { "navigatorTest" })
