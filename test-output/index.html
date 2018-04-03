@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-My_Strarbucks_test_suite">
-              <span class="suite-name border-passed">My Strarbucks test suite</span>
+              <span class="suite-name border-failed">My Strarbucks test suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-My_Strarbucks_test_suite">
-                    <span>C:\Users\sergio.garcia\Documents\starbuckstc\autotraining\src\test\java\com\automation\training\SuiteStarbucks.xml</span>
+                    <span>C:\Users\sergio.garcia\Documents\starbuckstc\autotraining\SuiteStarbucks.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,45 +90,54 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,  4 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-My_Strarbucks_test_suite" class="hide-methods passed suite-My_Strarbucks_test_suite"> (hide)</a> <!-- hide-methods passed suite-My_Strarbucks_test_suite -->
-                      <a href="#" panel-name="suite-My_Strarbucks_test_suite" class="show-methods passed suite-My_Strarbucks_test_suite"> (show)</a> <!-- show-methods passed suite-My_Strarbucks_test_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-My_Strarbucks_test_suite" class="hide-methods failed suite-My_Strarbucks_test_suite"> (hide)</a> <!-- hide-methods failed suite-My_Strarbucks_test_suite -->
+                      <a href="#" panel-name="suite-My_Strarbucks_test_suite" class="show-methods failed suite-My_Strarbucks_test_suite"> (show)</a> <!-- show-methods failed suite-My_Strarbucks_test_suite -->
                     </span>
-                    <div class="method-list-content passed suite-My_Strarbucks_test_suite">
+                    <div class="method-list-content failed suite-My_Strarbucks_test_suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Strarbucks_test_suite" title="com.automation.training.StarbucksTest" hash-for-method="testGiftCard(Sergio, This is a message for the GIFT CARD.
+Regards., Sergio Garcia, sergio@correo.com, friend@mail...)">testGiftCard(Sergio, This is a message for the GIFT CARD.
+Regards., Sergio Garcia, sergio@correo.com, friend@mail...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-My_Strarbucks_test_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-My_Strarbucks_test_suite" class="hide-methods skipped suite-My_Strarbucks_test_suite"> (hide)</a> <!-- hide-methods skipped suite-My_Strarbucks_test_suite -->
+                      <a href="#" panel-name="suite-My_Strarbucks_test_suite" class="show-methods skipped suite-My_Strarbucks_test_suite"> (show)</a> <!-- show-methods skipped suite-My_Strarbucks_test_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-My_Strarbucks_test_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-My_Strarbucks_test_suite" title="com.automation.training.StarbucksTest" hash-for-method="testGiftCard(Sergio, This is a message for the GIFT CARD.
 Regards., Garcia Sergio, sergio@correo.com, friend@mail...)">testGiftCard(Sergio, This is a message for the GIFT CARD.
 Regards., Garcia Sergio, sergio@correo.com, friend@mail...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-My_Strarbucks_test_suite" title="com.automation.training.StarbucksTest" hash-for-method="testGiftCard(Sergio, This is a message for the GIFT CARD.
-Regards., Sergio Garcia, sergio@correo.com, friend@mail...)">testGiftCard(Sergio, This is a message for the GIFT CARD.
-Regards., Sergio Garcia, sergio@correo.com, friend@mail...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-My_Strarbucks_test_suite" title="com.automation.training.StarbucksTest" hash-for-method="testMenuCoffe(1, 2, 3, 1)">testMenuCoffe(1, 2, 3, 1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-My_Strarbucks_test_suite" title="com.automation.training.StarbucksTest" hash-for-method="testMenuCoffe(1, 1, 1, 1)">testMenuCoffe(1, 1, 1, 1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-My_Strarbucks_test_suite" title="com.automation.training.StarbucksTest" hash-for-method="testTextNavsHome">testTextNavsHome</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-My_Strarbucks_test_suite -->
+                    </div> <!-- method-list-content skipped suite-My_Strarbucks_test_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -140,9 +149,62 @@ Regards., Sergio Garcia, sergio@correo.com, friend@mail...)</a> <!-- method navi
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-My_Strarbucks_test_suite" class="panel My_Strarbucks_test_suite">
-          <div class="suite-My_Strarbucks_test_suite-class-passed">
+          <div class="suite-My_Strarbucks_test_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.training.StarbucksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGiftCard(Sergio, This is a message for the GIFT CARD.
+Regards., Sergio Garcia, sergio@correo.com, friend@mail...)">
+                  </a> <!-- testGiftCard(Sergio, This is a message for the GIFT CARD.
+Regards., Sergio Garcia, sergio@correo.com, friend@mail...) -->
+                  <span class="method-name">testGiftCard</span>
+                  <span class="parameters">(Sergio, This is a message for the GIFT CARD.
+Regards., Sergio Garcia, sergio@correo.com, friend@mail.com, 4/5/2018)</span>
+                  <div class="stack-trace"><b>"java.lang.NullPointerException
+	at com.automation.pages.MenuGiftCardPage.clickMenu(MenuGiftCardPage.java:38)
+	at com.automation.pages.StarbucksHomePage.clickMenuGiftCard(StarbucksHomePage.java:56)
+	at com.automation.training.StarbucksTest.testGiftCard(StarbucksTest.java:58)
+... Removed 24 stack frames<br/> java.lang.NullPointerException
+	at com.automation.pages.MenuGiftCardPage.clickMenu(MenuGiftCardPage.java:38)
+	at com.automation.pages.StarbucksHomePage.clickMenuGiftCard(StarbucksHomePage.java:56)
+	at com.automation.training.StarbucksTest.testGiftCard(StarbucksTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>com.automation.pages.MenuGiftCardPage.clickMenu(MenuGiftCardPage.java:38)<br>com.automation.pages.StarbucksHomePage.clickMenuGiftCard(StarbucksHomePage.java:56)<br>com.automation.training.StarbucksTest.testGiftCard(StarbucksTest.java:58)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Strarbucks_test_suite-class-failed -->
+          <div class="suite-My_Strarbucks_test_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
               <span class="class-name">com.automation.training.StarbucksTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -155,17 +217,6 @@ Regards., Garcia Sergio, sergio@correo.com, friend@mail...) -->
                   <span class="method-name">testGiftCard</span>
                   <span class="parameters">(Sergio, This is a message for the GIFT CARD.
 Regards., Garcia Sergio, sergio@correo.com, friend@mail.com, 4/5/2018)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGiftCard(Sergio, This is a message for the GIFT CARD.
-Regards., Sergio Garcia, sergio@correo.com, friend@mail...)">
-                  </a> <!-- testGiftCard(Sergio, This is a message for the GIFT CARD.
-Regards., Sergio Garcia, sergio@correo.com, friend@mail...) -->
-                  <span class="method-name">testGiftCard</span>
-                  <span class="parameters">(Sergio, This is a message for the GIFT CARD.
-Regards., Sergio Garcia, sergio@correo.com, friend@mail.com, 4/5/2018)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -192,11 +243,11 @@ Regards., Sergio Garcia, sergio@correo.com, friend@mail.com, 4/5/2018)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-My_Strarbucks_test_suite-class-passed -->
+          </div> <!-- suite-My_Strarbucks_test_suite-class-skipped -->
         </div> <!-- panel My_Strarbucks_test_suite -->
         <div panel-name="test-xml-My_Strarbucks_test_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sergio.garcia\Documents\starbuckstc\autotraining\src\test\java\com\automation\training\SuiteStarbucks.xml</span>
+            <span class="header-content">C:\Users\sergio.garcia\Documents\starbuckstc\autotraining\SuiteStarbucks.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -288,28 +339,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testGiftCard')
 data.setCell(0, 2, 'com.automation.training.StarbucksTest')
-data.setCell(0, 3, 11886);
+data.setCell(0, 3, 1736);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testGiftCard')
 data.setCell(1, 2, 'com.automation.training.StarbucksTest')
-data.setCell(1, 3, 8589);
+data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testMenuCoffe')
+data.setCell(2, 1, 'testTextNavsHome')
 data.setCell(2, 2, 'com.automation.training.StarbucksTest')
-data.setCell(2, 3, 7545);
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testMenuCoffe')
 data.setCell(3, 2, 'com.automation.training.StarbucksTest')
-data.setCell(3, 3, 2935);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testTextNavsHome')
+data.setCell(4, 1, 'testMenuCoffe')
 data.setCell(4, 2, 'com.automation.training.StarbucksTest')
-data.setCell(4, 3, 165);
+data.setCell(4, 3, 0);
 window.suiteTableData['My_Strarbucks_test_suite']= { tableData: data, tableDiv: 'times-div-My_Strarbucks_test_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-My_Strarbucks_test_suite">
               </div> <!-- times-div-My_Strarbucks_test_suite -->
             </div> <!-- times-div -->
@@ -341,46 +392,58 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testGiftCard(Sergio, This is a message for the GIFT CARD.
 Regards., Sergio Garcia, sergio@correo.com, friend@mail...)</span>
-                <span class="method-start">4888 ms</span>
+                <span class="method-start">6144 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">16775 ms</span>
+                <span class="method-start">7883 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testGiftCard(Sergio, This is a message for the GIFT CARD.
 Regards., Garcia Sergio, sergio@correo.com, friend@mail...)</span>
-                <span class="method-start">17566 ms</span>
+                <span class="method-start">7934 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">26157 ms</span>
+                <span class="method-start">7936 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7950 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testMenuCoffe(1, 1, 1, 1)</span>
-                <span class="method-start">26909 ms</span>
+                <span class="method-start">7950 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">34457 ms</span>
+                <span class="method-start">7967 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testMenuCoffe(1, 2, 3, 1)</span>
-                <span class="method-start">35247 ms</span>
+                <span class="method-start">7967 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">38183 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testTextNavsHome</span>
-                <span class="method-start">39182 ms</span>
+                <span class="method-start">7981 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">39348 ms</span>
+                <span class="method-start">7983 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

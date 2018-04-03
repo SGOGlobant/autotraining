@@ -25,17 +25,33 @@ public class MenuGiftCardPage extends MenuPage {
 
 	public MenuGiftCardPage(WebDriver driver) {
 		super(driver);
+		// Busca el menu de Tarjetas de Regalo por su id
 		menuGiftCard = getNav().findElement(byIdNacGift);
 	}
 
+	/**
+	 * Ingresa una gift card al carrito de compras
+	 * 
+	 * @param recipientName
+	 * @param message
+	 * @param senderName
+	 * @param senderEmail
+	 * @param recipientEmail
+	 * @param deliverydate
+	 * @return
+	 */
 	public ShoppingCardPage clickMenu(String recipientName, String message, String senderName, String senderEmail,
 			String recipientEmail, String deliverydate) {
 		getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		// se da clic en el menu gift card
 		menuGiftCard.click();
 		WebElement linkGiveAGiftByEmail = getDriver().findElement(byLinkTextGiveGift);
 		linkGiveAGiftByEmail.click();
+		// Se selecciona un tarjeta por el texto
 		WebElement card = getDriver().findElement(byLinkTextTankYou);
+		// se da clic en la misma tarjeta
 		card.click();
+		// Se buscan los input del fomulario para agregar valores
 		WebElement inputRecipentName = getDriver().findElement(byIdRecipientName);
 		inputRecipentName.sendKeys(recipientName);
 		WebElement inputMessage = getDriver().findElement(byIdMessage);
@@ -51,6 +67,7 @@ public class MenuGiftCardPage extends MenuPage {
 		WebElement inputDeliveryDate = getDriver().findElement(byIdDeliveryDate);
 		inputDeliveryDate.clear();
 		inputDeliveryDate.sendKeys(deliverydate);
+		// una vez llenada toda la informacion se procede a enviar
 		btnAddToCart.click();
 		getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return new ShoppingCardPage(getDriver());

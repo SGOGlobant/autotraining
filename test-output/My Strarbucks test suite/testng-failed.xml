@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [My Strarbucks test suite]">
-  <parameter name="browser" value="firefox"/>
+  <parameter name="browser" value="chrome"/>
   <parameter name="answer3" value="1"/>
   <parameter name="answer2" value="1"/>
   <parameter name="answer4" value="1"/>
@@ -15,7 +15,7 @@
     <classes>
       <class name="com.automation.training.StarbucksTest">
         <methods>
-          <include name="testGiftCard"/>
+          <include name="testGiftCard" invocation-numbers="0"/>
           <include name="testMenuCoffe"/>
           <include name="testTextNavsHome"/>
           <include name="beforeMethod"/>

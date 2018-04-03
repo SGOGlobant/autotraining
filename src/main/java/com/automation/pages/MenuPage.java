@@ -22,6 +22,11 @@ public class MenuPage extends BasePage {
 		return nav;
 	}
 
+	/**
+	 * Devuleve cada uno de los textos que se encuentran en la barra de navegacion
+	 * 
+	 * @return
+	 */
 	public List<String> recoverTextTabs() {
 		// System.out.println(nav.getText());
 		List<String> texts = new ArrayList<String>();
