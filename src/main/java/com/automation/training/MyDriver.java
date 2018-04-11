@@ -14,15 +14,10 @@ public class MyDriver {
 	public MyDriver(String browser) {
 		
 		if ("firefox".equals(browser)) {
-//			FirefoxOptions firefoxOptions = new FirefoxOptions(DesiredCapabilities.firefox());
-//	        firefoxOptions.addPreference("browser.popups.showPopupBlocker", false);
-//	        firefoxOptions.addPreference("security.sandbox.content.level", 5);
-//	        firefoxOptions.setAcceptInsecureCerts(true);
-//	        firefoxOptions.setProfile(new FirefoxProfile());
+			FirefoxOptions firefoxOptions = new FirefoxOptions();
 			driver = new FirefoxDriver();
 		} else if ("chrome".equals(browser)) {
-			System.setProperty("webdriver.chrome.driver", "../autotraining/resources/chromedriver.exe");
-			ChromeOptions chrome = new ChromeOptions();
+			System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		
