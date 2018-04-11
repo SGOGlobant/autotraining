@@ -12,7 +12,7 @@ import com.automation.pages.ShoppingCardPage;
 import com.automation.pages.StarbucksHomePage;
 
 public class StarbucksTest extends BaseTests {
-	private final String[] texts = { "COFFEE", "TEA", "MENU", "COFFEHOUSE", "SOCIAL IMPACT", "STARBUCKS REWARDS",
+	private final String[] texts = { "COFFEE", "TEA", "MENU", "COFFEEHOUSE", "SOCIAL IMPACT", "STARBUCKS REWARDS",
 			"BLOG", "GIFT CARDS" };
 
 	/**
@@ -85,8 +85,8 @@ public class StarbucksTest extends BaseTests {
 	public Object[][] getDataCard() {
 		return new Object[][] {
 				{ "Sergio", "This is a message for the GIFT CARD.\nRegards.", "Sergio Garcia", "sergio@correo.com",
-						"friend@mail.com", "4/5/2018" },
+						"friend@mail.com", "5/5/2018" },
 				{ "Sergio", "This is a message for the GIFT CARD.\nRegards.", "Garcia Sergio", "sergio@correo.com",
-						"friend@mail.com", "4/5/2018" } };
+						"friend@mail.com", "5/5/2018" } };
 	}
 }

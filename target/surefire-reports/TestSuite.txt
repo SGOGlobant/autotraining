@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.564 s <<< FAILURE! - in TestSuite
-testGiftCard(com.automation.training.StarbucksTest)  Time elapsed: 9.618 s  <<< FAILURE!
-java.lang.AssertionError: 
-expected [Sergio
-This is a message for the GIFT CARD. Regards.] but found [Sergio
-This is a message for the 2nd GIFT CARD. Regards.]
-	at com.automation.training.StarbucksTest.testGiftCard(StarbucksTest.java:41)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.387 s - in TestSuite

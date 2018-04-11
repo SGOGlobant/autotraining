@@ -15,8 +15,7 @@
     <classes>
       <class name="com.automation.training.StarbucksTest">
         <methods>
-          <include name="testGiftCard" invocation-numbers="0"/>
-          <include name="testMenuCoffe"/>
+          <include name="testGiftCard" invocation-numbers="0 1"/>
           <include name="testTextNavsHome"/>
           <include name="beforeMethod"/>
           <include name="beforeSuite"/>

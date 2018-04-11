@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="My Strarbucks test suite" verbose="1">
+<suite name="My Strabucks test suite" verbose="1">
 	<parameter name="browser" value="chrome" />
 	<parameter name="answer1" value="1" />
 	<parameter name="answer2" value="1" />
